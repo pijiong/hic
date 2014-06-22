@@ -1,6 +1,7 @@
 <?php
 	//validate login values
 	function funcValidate($username, $password){
+		
 		$bool = false;
 		
 		if ($username == "" or $password ==""){

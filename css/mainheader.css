@@ -1,0 +1,35 @@
+#divMainHeaderWrapper{
+	width: 100%;
+	height: 100px;
+	margin: 30px 20px 0px 0px;
+
+}
+
+#divHeaderLeft{
+	float:	left;
+	margin: 20px 20px;
+}
+#divHeaderRight{
+	float: right;
+	margin: 20px 20px;
+}
+
+#pHeader{
+	font-size: 25px;
+	margin: 0px 0px 10px 0px;
+}
+#pSubHeader{
+	font-size: 14px;
+	color: green;
+	margin: 0px;
+}
+
+#pName{
+	margin: 10px 0px 10px 0px;
+	font-size: 14px;
+}
+#aSignOut{
+	font-size: 14px;
+	text-decoration: none;
+	margin: 0px;
+}

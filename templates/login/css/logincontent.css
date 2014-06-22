@@ -1,5 +1,27 @@
-#btnLogin{
-	width: 100px;
+
+#divLoginContentWrapper{
+	padding: 20px 0px 0px 0px;
+	margin-left: 20px;
+}
+#divLoginContentBody{
+	padding: 20px 0px 0px 0px;
+	width: 297px;
+}
+
+input[type=text],[type=password]{
+	padding-left: 35px;
+	width: 250px;
+}
+
+#txtUsername{
+	background: url('../../../images/textusername.png') no-repeat;
+	background-size: 16px;
+	background-position: 10px 5px;
+}
+#txtPassword{
+	background: url('../../../images/textpassword.png') no-repeat;
+	background-size: 16px;
+	background-position: 10px 5px;
 }
 
 #divButton{
@@ -7,11 +29,6 @@
 	float: right;
 }
 
-#divLoginContent{
-	padding: 20px 0px 0px 0px;
-	width: 305px;
+#btnButton{
+	width: 100px;
 }
-.clsContainer{
-	padding: 20px 0px 20px 0px;
-}
-

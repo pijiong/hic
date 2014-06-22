@@ -1,0 +1,14 @@
+#divLoginHeaderWrapper{
+	margin-left: 10px;
+}
+
+#pHeader{
+	font-size: 25px;
+	margin: 15px 0px;
+}
+
+#pSubHeader{
+	font-size: 16px;
+	color: green;
+	margin-bottom: 15px;
+}
