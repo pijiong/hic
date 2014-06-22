@@ -1,0 +1,66 @@
+body{
+	font-family: san-serif, arial, helvetica;
+}
+
+.clsInputField{
+	clear : both;
+	font-size: 15px;
+}
+
+.clsInputFieldItem{
+	margin : 5px 0px 5px 0px;
+	float : left;
+}
+
+.clsInputFieldItem span{
+	display : inline-block;  
+	min-width : 100px;
+	font-size: 15px;
+}
+
+.clsButton{
+	width: 100px;
+}
+
+/*input text design*/
+input[type=text], [type=password]{
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+
+    outline: none;
+    padding: 4px 7px 4px 7px;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    font: 14px helvetica;
+	width: 200px;
+}
+
+input[type=text]:focus, [type=password]:focus {
+    box-shadow: 0 0 1px #0099FF ;
+    border: 1px solid #0066FF; 
+}
+
+/* button design */
+input[type=submit]{ 
+    height: 35px; 
+    width: 100px; 
+    padding: 3px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    font-family: sans-serif; 
+    font-size: 14px; 
+    background-color: #3399FF; 
+    border-width: 2px; 
+    border-style: solid; 
+    border-color: #FFFFFF; 
+    border-radius: 6px; 
+    box-shadow: 0px 0px 0px 0px #F7F7F7; 
+} 
+input[type=submit]:hover{ 
+    background-color: 	#0066FF; 
+} 
+input[type=submit]:active{ 
+    background-color: #0066CC; 
+}
