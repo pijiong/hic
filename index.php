@@ -9,5 +9,4 @@ This system is for Test Laboratory - HIC Testing.
 It will cover HIC data results and reports. */
 
 header('Location: templates/login/login.php') ;
-testing
 ?> 
